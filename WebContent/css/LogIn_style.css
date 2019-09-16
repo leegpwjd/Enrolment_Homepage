@@ -1,0 +1,101 @@
+@charset "UTF-8";
+body{
+	font-family: 'Sunflower', sans-serif;
+	background: #F3F5F7;
+}
+.header{
+	background-image:url('http://library.doowon.ac.kr/html/1016001/img/intro_01.jpg');
+	overflow : hidden;
+	
+	
+	height: 350px;
+}
+h3{
+	padding-top:100px;
+	color : black;
+	margin:0px;
+	padding-left: 300px;
+
+}
+h1{
+	font-size:60px;
+	color : #AFD3F5;
+	margin:0px;
+	padding-left: 300px;
+	
+	
+}
+h2{
+	color:#083D6E;
+	font-size : 80px;
+	margin:0px;
+	padding-left: 300px;
+	text-shadow: -1px 0 #EAEFF4, 0 1px #EAEFF4, 1px 0 #EAEFF4, 0 -1px #EAEFF4;
+}
+
+h5{
+	padding-top:100px;
+	font-size : 15px;
+	text-align : center;
+}
+
+.btn-login{
+	width: 120px;
+	height: 55px;
+	border-radius: 10px;
+	border: 2px solid white;
+	background: #0E2C59;
+	color: white;
+	font-size: 20px;
+	opacity: 0.8;
+	margin-top: 8px;
+}
+
+.btn-login:hover{
+    background-color: chocolate;
+}
+
+.btu{
+	width: 100px;
+	height:55px;
+	font-size: 25px;
+	opacity: 0.8;
+	float:right;
+	color: #0E2C59;
+	background-color : rgba(0, 0, 0, 0);
+	padding: 5px;
+	border:0;
+	outline:0;
+	font-weight: bold;
+}
+.btu:hover{
+    color: red;
+}
+
+td:first-of-type{
+	text-align: right;
+	padding-right: 10px;
+}
+
+table{
+	
+	border-spacing:0 1em;
+	width: 20%;
+	margin: 10px auto;
+}
+h6{
+	font-size : 15px;
+	color: red;
+	text-align : center;
+}
+
+footer h4{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background: #393e44;
+	color: white;
+	margin-bootom: 0;
+	padding-top : 0px;
+	margin-top : 200px;
+}
